@@ -1,12 +1,43 @@
-# React + Vite
+# React Context API Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates React's Context API for state management through a simple counter application.
 
-Currently, two official plugins are available:
+## Key Concepts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Context Creation**: Shows how to create a shared state container
+- **Provider Pattern**: Demonstrates wrapping components to provide state
+- **State Consumption**: Illustrates accessing state from any child component
+- **Counter Functionality**:
+  - Increment button that increases the count
+  - Decrement button that decreases the count
+  - Live display of current count value
 
-## Expanding the ESLint configuration
+## Implementation Approach
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project uses three main architectural patterns:
+1. A central Context that holds the shared state
+2. A Provider component that manages and distributes the state
+3. Multiple Consumer components that access and modify the state
+
+## How to Run
+
+1. Install dependencies with `npm install`
+2. Start the development server with `npm run dev`
+3. Open your browser to [http://localhost:5173](http://localhost:5173)
+
+## Learning Outcomes
+
+This example teaches:
+- How to avoid prop drilling
+- The provider-consumer pattern in React
+- Global state management fundamentals
+- Component composition best practices
+
+## Extension Ideas
+
+Consider adding:
+- A reset button functionality
+- Support for multiple counters
+- State persistence using localStorage
+
+Created with Vite + React - happy coding!
