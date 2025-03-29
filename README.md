@@ -24,18 +24,3 @@ The project uses three main architectural patterns:
 1. Install dependencies with `npm install`
 2. Start the development server with `npm run dev`
 3. Open your browser to [http://localhost:5173](http://localhost:5173)
-
-## Learning Outcomes
-
-This example teaches:
-- How to avoid prop drilling
-- The provider-consumer pattern in React
-- Global state management fundamentals
-- Component composition best practices
-
-## Extension Ideas
-
-Consider adding:
-- A reset button functionality
-- Support for multiple counters
-- State persistence using localStorage
