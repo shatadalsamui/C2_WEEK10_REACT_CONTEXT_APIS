@@ -39,5 +39,3 @@ Consider adding:
 - A reset button functionality
 - Support for multiple counters
 - State persistence using localStorage
-
-Created with Vite + React - happy coding!
